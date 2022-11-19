@@ -1,4 +1,9 @@
 package com.example.gestionemployee.model;
 
-public class Manager extends Employee{
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "managers")
+public class Manager extends Employee {
 }
